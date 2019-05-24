@@ -1,0 +1,32 @@
+.root{
+	-fx-background-image: url("pat.png");
+	-fx-background-size:auto,auto;
+	-fx-font-family: "Agency FB";
+	-fx-font-size:20px;
+}
+
+.button{
+	-fx-background-color: linear-gradient(#c6c2b6, #FFFAFA);
+	-fx-font-size:20px;
+	-fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-font-weight: bold;
+	-fx-border-width: 5px;
+	-fx-border-color:#FFFFFF;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#FFFAFA, #a09d92);
+    -fx-border-width: 5px;
+	-fx-border-color:#000000;
+}
+
+.label{
+	-fx-font-size:20px;
+	-fx-font-color:#FDF5E6;
+	
+}
+.headerLbl{
+	-fx-font-weight: bold;
+	-fx-font-size:20px;
+	-fx-border-color:#000000;
+}
+
